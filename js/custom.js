@@ -26,6 +26,9 @@
     }
   });
 
+  // $(".caption-content").on('hover', function(){
+  //   $(this).closest(".caption-content").addClass('active');
+  // });
 
   //jQuery to collapse the navbar on scroll
   $(window).scroll(function() {

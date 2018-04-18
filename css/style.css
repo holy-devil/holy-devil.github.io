@@ -1,15 +1,11 @@
-/*
-    Theme Name: Bethany
-    Theme URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
-
 body {
   line-height: 1.5;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
+  background: linear-gradient(45deg, #fff 20px, transparent 1%) center, linear-gradient(#fff 20px, transparent 1%) center, #e4e4e4;
+  background-size: 22px 22px;
 }
+
 
 ol, ul {
   list-style: none;
@@ -34,7 +30,7 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 /**media Queries**/
@@ -44,14 +40,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+  background: url(../img/cover4.png) no-repeat;
   background-size: cover;
-  min-height: 610px;
+ 
+}
+
+#other-projects{
+  background: url(../img/cover4.png) no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+#other-projects h3{
+  padding-top: 140px;
+  font-weight: 600;
+  color: #626262;
+  letter-spacing: 1px;
+}
+.bg-overlay-color{
+   background-color: RGBA(255, 255, 255, 0.41);
+   min-height: 300px;
 }
 
 .bg-color {
   margin-top: 100px;
-  background-color: RGBA(0, 0, 0, 0.41);
+  background-color: RGBA(255, 255, 255, 0.41);
 }
 
 .nav>li>a {
@@ -120,16 +132,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .sub-title {
   font-size: 35px;
-  font-weight: 700;
-  color: #fff;
+  color: #444;
   line-height: 60px;
   opacity: 1;
+  text-align: left;
+  font-weight: 700;
 }
 
 .sub-sub-title {
   font-size: 25px;
   font-weight: 500;
-  color: #fff;
+  color: #444;
   line-height: 60px;
   opacity: 1;
 }
@@ -137,10 +150,12 @@ h1, h2, h3, h4, h5, h6 {
 .title {
   font-size: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #444;
   line-height: 70px;
   opacity: 1;
   padding: 25px 0px;
+  font-family: 'Nunito',sans-serif;
+  text-align: left;
 }
 
 .btn-submit {
@@ -200,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .head-title {
   color: #2b2b2b;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 700;
   padding-bottom: 20px;
 }
@@ -227,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #d3d3d3;
+  color: #9b9b9b;
 }
 
 .text-content {
@@ -244,7 +259,8 @@ p {
   padding-right: 20px;
   padding-left: 20px;
   display: inline-block;
-  width: 80%;
+  width: 65%;
+  line-height: 35px;
 }
 
 .icon {
@@ -279,7 +295,7 @@ h3.txt-tl {
 }
 
 .bg-image-2 {
-  background: url('../img/cta-banner.jpg') no-repeat center fixed;
+ /* background: url('../img/cta-banner.jpg') no-repeat center fixed;*/
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -307,6 +323,17 @@ h3.txt-tl {
   color: #fff;
 }
 
+.underline {
+  border-bottom-color: #ffd34f;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.underline-dash{
+  border-bottom-color: #ffd34f7a;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+}
 /****/
 
 .portfolio-box {
@@ -314,13 +341,14 @@ h3.txt-tl {
 }
 
 .portfolio-item {
-  display: block;
+  display: inline-block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
-  margin: 10px !important;
-  box-shadow: 4px 4px 9px -4px #e8e8e8;
+  width: 65%;
+  margin: 20px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: 1px;
 }
 img {
   width: 100%;
@@ -331,14 +359,15 @@ img {
   height: 350px
   width: 400px;
  /* background-color: rgba(33, 37, 41, 0.2);*/
-  position: absolute;
+  text-align: left;
   top: 0;
   bottom: 0;
   z-index: 1;
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #888;
+  padding-top: 30px;
   margin: auto 2rem 2rem;
 }
 
@@ -346,43 +375,52 @@ img {
   font-size: 2rem;
   font-weight: 650;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  width: 80%;
 }
 
 @media (min-width: 992px) {
-  .portfolio-item {
-    max-width: none;
-    margin: 0;
-  }
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(2px);
     clip-path: inset(2px);
   }
+  /*.portfolio-item {
+    -webkit-transition: border 0.25s;
+  }*/
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin: 2rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(12px);
     clip-path: inset(12px);
+    padding: 0px;
   }
   .portfolio-item:hover img {
     -webkit-clip-path: inset(-1rem);
     clip-path: inset(-1rem);
+    padding: 0px;
   }
-  .portfolio-item:hover .caption {
-    background-color: rgba(0, 0, 0, 0.40);
+  .portfolio-item:hover  .caption-content h2{
+    color: #FFD34E;
+
+  }
+  .portfolio-item:hover  {
+    /*background-color: rgba(255, 218, 106, 0.2);*/
     -webkit-clip-path: inset(0rem);
     clip-path: inset(0rem);
+    border-color: #FFD34E;
+    border-style: solid;
+    border-width: 2px;
   }
+
 }
 
 .padding-right-zero {
@@ -503,12 +541,43 @@ a, a:hover {
   .section-title {
     margin-bottom: 15px;
   }
+  .portfolio-item {
+    margin: 10px;
+    width: 90%;
+  }
+  .about-content {
+    width: 100%;
+    margin: 0px;
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+  #other-projects h3{
+    font-size: 24px;
+    width: 80%;
+    display: inline-block;
+  }
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
   .navbar-toggle:hover, .navbar-toggle {
     background-color: #fff;
     color: #000;
+  }
+  .about-content {
+    width: 100%;
+    margin: 0px;
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+  .portfolio-item {
+    margin: 10px;
+    width: 90%;
+  }
+
+  #other-projects h3{
+    font-size: 21px;
+    width: 80%;
+    display: inline-block;
   }
   .navbar-toggle {
     margin-top: 0px;
@@ -525,7 +594,8 @@ a, a:hover {
     font-size: 50px;
   }
   .sub-title {
-    font-size: 24px;
+    font-size: 21px;
+    font-weight: 700;
   }
   .footer-copyright {
     text-align: center;
