@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #other-projects{
-  background: url(../img/cover4.png) no-repeat;
+  background: url(../img/cover-projects.png) no-repeat;
   background-size: cover;
   min-height: 300px;
 }
@@ -55,6 +55,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #626262;
   letter-spacing: 1px;
+}
+#other-projects h3 a{
+   color: #444;
 }
 .bg-overlay-color{
    background-color: RGBA(255, 255, 255, 0.41);
@@ -574,7 +577,7 @@ a, a:hover {
     width: 90%;
   }
 
-  #other-projects h3{
+  #other-projects h3 {
     font-size: 21px;
     width: 80%;
     display: inline-block;
