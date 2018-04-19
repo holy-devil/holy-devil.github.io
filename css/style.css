@@ -2,7 +2,7 @@ body {
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
-  background: linear-gradient(45deg, #fff 20px, transparent 1%) center, linear-gradient(#fff 20px, transparent 1%) center, #e4e4e4;
+  background: linear-gradient(90deg, #fff 20px, transparent 1%) center, linear-gradient(#fff 20px, transparent 1%) center, #cfcfcf;
   background-size: 22px 22px;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 /**media Queries**/
 
 .navbar-default {
-  background-color: transparent;
+  background-color: #ffffffbf;
 }
 
 #Intro {
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-fixed-top {
-  padding: 40px 0;
+  padding: 30px 0;
   transition: all 0.5s;
 }
 
@@ -358,6 +358,7 @@ h3.txt-tl {
   border-color: #f2f2f2;
   border-style: solid;
   border-width: 1px;
+  background-color: #fcfcfc;
 }
 img {
   width: 100%;
@@ -437,7 +438,7 @@ img {
 }
 
 #contact {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;;
 }
 
 .validation {
@@ -575,9 +576,14 @@ a, a:hover {
   margin-top:80px;
 }
 .intro-text{
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 20px;
+  background-color: #fff0c159;
 
+}
+.navbar-fixed-top{
+  margin: 0;
+  padding:10px 0;
 }
 .title {
   font-size: 42px;
@@ -587,8 +593,14 @@ a, a:hover {
   line-height: 30px;
 }
   .navbar-toggle:hover, .navbar-toggle {
-    background-color: #fff;
-    color: #000;
+    color: #777;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 32px;
+  }
+  .navbar-toggle button {
+    font-size: 32px;
   }
   .about-content {
     width: 100%;
