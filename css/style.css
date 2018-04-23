@@ -420,7 +420,7 @@ img {
     /*background-color: rgba(255, 218, 106, 0.2);*/
     -webkit-clip-path: inset(0rem);
     clip-path: inset(0rem);
-    border-color: #FFD34E;
+    border-color: #f9eea2; /*#FFD34E;*/
     border-style: solid;
     border-width: 2px;
   }
