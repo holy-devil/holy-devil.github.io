@@ -41,9 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #Intro {
   background: url(../img/cover.png) no-repeat;
-  background-size: cover;
-  min-height: 500px;
-  margin-top:100px;
+      background-size: 100% auto;
+    min-height: 500px;
+    margin-top: 100px;
+    background-attachment: fixed;
+    background-position-y: 100px;
 }
 .intro-text{
   margin-top: 150px;
