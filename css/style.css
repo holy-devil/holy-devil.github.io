@@ -81,6 +81,16 @@ h1, h2, h3, h4, h5, h6 {
 #logo {
   padding: 0px;
   height: 40px;
+  border-right: #afafaf;
+    border-style: solid;
+}
+
+.navbar-header{
+    width: 30%;
+}
+.logo-text{
+  font-size:  12px;
+  color:  #777;
 }
 
 .navbar-default .navbar-brand {
@@ -151,13 +161,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 800;
   color: #444;
   line-height: 70px;
   opacity: 1;
   padding: 25px 0px;
-  font-family: 'Nunito',sans-serif;
+  font-family: 'Lato',sans-serif;
   text-align: left;
 }
 
@@ -564,15 +574,26 @@ a, a:hover {
 
 @media (min-width: 20px) and (max-width: 450px) {
   #Intro {
-  background: url(../img/cover1.png) no-repeat;
+  background: url(../img/cover.png) no-repeat;
   background-size: cover;
   min-height: 300px;
   margin-top:80px;
 }
+#logo {
+  border: none;
+  width: auto;
+    padding-top: 5px;
+}
+.logo-text{
+  display: none;
+}
+.navbar-header{
+  width: auto;
+}
 .intro-text{
   margin-top: 100px;
   margin-left: 20px;
-  background-color: #fff0c159;
+  background-color: #ffffff73;
 
 }
 .navbar-fixed-top{
