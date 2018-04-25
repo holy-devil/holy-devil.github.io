@@ -39,6 +39,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffffbf;
 }
 
+/** Project css section**/
+.project-padding{
+  padding: 100px 0px 0px;
+}
+.project-file{
+  width: 100%;
+}
+
+/** Project css section ends here **/
+
 #Intro {
   background: url(../img/cover.png) no-repeat;
       background-size: 100% auto;
