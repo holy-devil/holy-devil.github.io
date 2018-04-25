@@ -149,10 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 .sub-title {
   font-size: 35px;
   color: #444;
-  line-height: 60px;
+  line-height: 65px;
   opacity: 1;
   text-align: left;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .sub-sub-title {
@@ -165,9 +165,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
   font-size: 70px;
-  font-weight: 800;
+  font-weight: 600;
   color: #444;
-  line-height: 70px;
+  line-height: 85px;
   opacity: 1;
   padding: 25px 0px;
   font-family: 'Lato',sans-serif;
