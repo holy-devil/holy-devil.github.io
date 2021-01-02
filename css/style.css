@@ -150,12 +150,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
-@media (max-width: 768px) {
-	.navbar-collapse {
-		border-top: 0;
-	}
-}
-
 .top-nav-collapse {
   padding: 18px 0;
 }
@@ -584,13 +578,13 @@ a:hover {
   color: #000;
 }
 
-.fa .fa-bars{
-  color:#EAD6DA;
+.fa {
+  color:#EAD6DA !important;
 }
 
 
 /****/
-
+/*
 @media (min-width: 451px) and (max-width: 900px) {
   .section-title {
     margin-bottom: 15px;
@@ -610,9 +604,15 @@ a:hover {
     width: 80%;
     display: inline-block;
   }
+}*/
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .intro-pic {
+    padding: : 50px;
+  }
 }
 
-@media (min-width: 20px) and (max-width: 450px) {
+@media (min-width: 20px) and (max-width: 768px) {
   #Intro {
   /*background: url(../img/cover.png) no-repeat;
   background-size: cover;*/
@@ -688,7 +688,7 @@ a:hover {
   .navbar-default .navbar-nav>li>a {
     text-align: center;
     font-size: 21px;
-    color: #333;
+    color: #504957;
     font-weight: 600;
   }
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
