@@ -405,21 +405,22 @@ img {
 
 .portfolio-item .caption .caption-content {
   color: #888;
-  padding-top: 30px;
-  margin: auto 2rem 2rem;
+  /*padding-top: 30px;
+  margin-left: 10px;*/
 }
 
 .portfolio-item .caption .caption-content h2 {
   font-size: 2rem;
   font-weight: 650;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.5rem;
   width: 80%;
+  padding-top: 10px;
 }
 
 .portfolio-item:hover  {
