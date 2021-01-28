@@ -59,7 +59,7 @@
       <div id="Intro">
       <div class="container ">
         <div class="intro-text wow fadeInUp delay-05s">
-          <img class="img-fluid col-sm-4 intro-pic" src="img/profile-photo.svg" alt="">
+          <img class="img-fluid col-sm-4 intro-pic" src="img/profile-photo.png" alt="">
           <div class="col-sm-8 intro-para">
             <span class="sub-title">&#128075; Hello!</span><br/>
             <span class="title">I'm Rajshree,</span><br/>
@@ -80,18 +80,33 @@
           <h2 class="head-title">Recent Projects</h2>
         </div>
         <div class="row">
+
+          <!-- <div class="text-center">
+            <a class="portfolio-item row" href="#"  target="_blank">
+              <img class="img-fluid col-sm-6" src="img/projects/ibm-maas360.png" alt="">
+              <span class="caption col-sm-6">
+                <span class="caption-content">
+                  <h2>Active projects in IBM</h2>
+                  <h4>Product design | UI/UX</h4>
+                  <p class="mb-0">Responsible for client success of IBM Security MaaS360 by leading product UX for administrator portal through multiple projects and initiatives. MaaS360 is a market leader in unified end-point management solutions. </p>
+                </span>
+              </span>
+            </a>
+          </div> -->
+        
           <div class="text-center">
             <a class="portfolio-item row" href="https://graphics.reuters.com/INDIA-POLLUTION/010080SY1KE/index.html"  target="_blank">
               <img class="img-fluid col-sm-6" src="img/projects/India-pollution.png" alt="">
               <span class="caption col-sm-6">
                 <span class="caption-content">
-                  <h2>India Pollution</h2>
+                  <h2>Preparing to choke</h2>
                   <h4>Data Journalism | Infographics</h4>
                   <p class="mb-0">As part of internship project at Reuters-Singapore, this project explained the gravity of air pollution in northern India. Reuters won the <em>Digital Journalist of the Year Award at Kalinga FCC awards for Excellence in Data Journalism</em> for Delhi's pollution coverage consisting of 3 data stories</p>
                 </span>
               </span>
             </a>
           </div>
+
           <div class="text-center">
             <a class="portfolio-item row" href="https://graphics.reuters.com/INDIA-FLOOD/010080MF18N/index.html"  target="_blank">
               <img class="img-fluid col-sm-6" src="img/projects/kerala-floods.png" alt="">
@@ -104,8 +119,9 @@
               </span>
             </a>
           </div>
+
           <div class="text-center">
-            <a class="portfolio-item row" href="https://rajshree-design.xyz/Beyond/"  target="_blank">
+            <a class="portfolio-item row" href="https://rajshreedeshmukh.com/Beyond/"  target="_blank">
               <img class="img-fluid col-sm-6" src="img/projects/beyond.png" alt="">
               <span class="caption col-sm-6">
                 <span class="caption-content">
@@ -116,9 +132,9 @@
               </span>
             </a>
           </div>
+
           <div class="text-center">
-            <a class="portfolio-item row" href="https://rajshree-design.xyz/nas-dataviz/"  target="_blank">
-              
+            <a class="portfolio-item row" href="https://rajshreedeshmukh.com/nas-dataviz/"  target="_blank">
               <img class="img-fluid  col-sm-6" src="img/projects/nas.png" alt="">
               <span class="caption col-sm-6">
                 <span class="caption-content">
@@ -129,8 +145,9 @@
               </span>
             </a>
           </div>
+
           <div class="text-center">
-            <a class="portfolio-item" href="https://rajshree-design.xyz/project/IBM.html"  target="_blank">
+            <a class="portfolio-item" href="https://rajshreedeshmukh.com/project/IBM.html"  target="_blank">
               
               <img class="img-fluid col-sm-6" src="img/projects/ibm.png" alt="">
               <span class="caption col-sm-6">
@@ -142,8 +159,9 @@
               </span>
             </a>
           </div>
+          
           <div class="text-center">
-            <a class="portfolio-item" href="https://rajshree-design.xyz/Dominos/"  target="_blank">
+            <a class="portfolio-item" href="https://rajshreedeshmukh.com/Dominos/"  target="_blank">
               
               <img class="img-fluid col-sm-6" src="img/projects/dominos.png" alt="">
               <span class="caption col-sm-6">
@@ -156,7 +174,7 @@
             </a>
           </div>
           <div class="text-center">
-            <a class="portfolio-item" href="https://rajshree-design.xyz/MappedType/"  target="_blank">
+            <a class="portfolio-item" href="https://rajshreedeshmukh.com/MappedType/"  target="_blank">
               
               <img class="img-fluid col-sm-6" src="img/projects/map.png" alt="">
               <span class="caption col-sm-6">
@@ -169,7 +187,7 @@
             </a>
           </div>
           <div class="text-center">
-            <a class="portfolio-item" href="https://rajshree-design.xyz/Skyplot/"  target="_blank">
+            <a class="portfolio-item" href="https://rajshreedeshmukh.com/Skyplot/"  target="_blank">
               
               <img class="img-fluid col-sm-6" src="img/projects/skyplot.png" alt="">
               <span class="caption col-sm-6">
@@ -240,7 +258,7 @@ My interests lie in creating information experiences, data visualizations, UI/UX
     <div class="container">
       <div class="row">
         <div class="text-center footer-copyright">
-          © Rajshree Deshmukh 2020
+          © Rajshree Deshmukh <span class="copyright-text" id="date">2020</span>
           
         </div>
         
@@ -254,6 +272,9 @@ My interests lie in creating information experiences, data visualizations, UI/UX
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.js"></script>
   <script src="js/custom.js"></script>
-
+  <script>// Update copyright with current year
+        var d = new Date();
+        $("footer #date").text(d.getFullYear());
+  </script>
 </body>
 </html>
